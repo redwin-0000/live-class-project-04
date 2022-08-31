@@ -1,0 +1,88 @@
+*{
+margin: 0;
+top: 0;
+
+}
+
+.brand-logo{
+    position: absolute;
+    left: 60px;
+    top: 5px;
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 20%;
+  }
+  .list-item {
+    margin: 90px;
+    color: #758283;
+    padding-left: 20px;
+    margin-top: 3%;
+   
+  }
+  .list li:hover {
+    color: #111111;
+  }
+  
+  .grow-list {
+    display: flex;
+    width: 60vw;
+    height: 10vh;
+    justify-content: flex-start;
+  }
+.button-group{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+.nav-button{
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #7b18ed;
+}
+.nav-button:hover {
+    color: #63280c;
+  }
+
+  .heading-text{
+    font-size: 70px;
+    font-family: "Montserrat,  sans-serif";
+    color: #291540;
+    padding-left: 28px;
+    padding-top: 100px;
+   }
+
+   .description{
+    font-size: 20px;
+    color: #758283;
+    padding-top: 80px;
+    padding-left: 28px;
+     } 
+.hero-image{
+position: absolute;
+right: 800px;
+top: 240px;
+width: 83px;
+height: 50px;
+
+}
+.span{
+   color: #758283;
+}
+.nav-button-btn{
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #7b18ed;
+    font-size: 20px;
+}
+.nav-button-btn:hover {
+    color: #63280c;
+  }
